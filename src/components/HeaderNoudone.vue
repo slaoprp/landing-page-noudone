@@ -10,11 +10,11 @@
             </b-navbar-brand>
             <b-collapse class="default-nav justify-content-center"  is-nav id="nav_collapse">
                 <b-navbar-nav class="navbar-nav main-menu text-white">
-                    <b-nav-item to="/"><span>Coaching</span></b-nav-item>
-                    <b-nav-item href="#home" class="scroll"><span>Create</span></b-nav-item>
-                    <b-nav-item href="#about" class="scroll"><span>ABOUT</span></b-nav-item>
-                    <b-nav-item href="#service" class="scroll"><span>SERVICE</span></b-nav-item>
-                    <b-nav-item href="#testimonial" class="scroll"><span>TESTIMONIAL</span></b-nav-item>
+                    <b-nav-item href="#discover" class="scroll"><span>DISCOVER</span></b-nav-item>
+                    <b-nav-item href="#create" class="scroll"><span>CREATE</span></b-nav-item>
+                    <b-nav-item href="#share" class="scroll"><span>SHARE</span></b-nav-item>
+                    <b-nav-item href="#sell" class="scroll"><span>SELL</span></b-nav-item>
+                    <b-nav-item href="#coach" class="scroll"><span>COACH</span></b-nav-item>
                 </b-navbar-nav>
             </b-collapse>
             <b-btn-group class="header-button button--white d-none d-xl-block">
@@ -100,15 +100,15 @@
             </b-navbar-brand>
             <b-collapse class="default-nav justify-content-center"  is-nav id="nav_collapse">
                 <b-navbar-nav class="navbar-nav main-menu text-white">
-                    <b-nav-item to="/"><span>DISCOVER</span></b-nav-item>
-                    <b-nav-item href="#home" class="scroll"><span>CREATE</span></b-nav-item>
-                    <b-nav-item href="#about" class="scroll"><span>ABOUT</span></b-nav-item>
-                    <b-nav-item href="#service" class="scroll"><span>SERVICE</span></b-nav-item>
-                    <b-nav-item href="#testimonial" class="scroll"><span>TESTIMONIAL</span></b-nav-item>
+                    <b-nav-item href="#home" class="scroll"><span>DISCOVER</span></b-nav-item>
+                    <b-nav-item href="#create" class="scroll"><span>CREATE</span></b-nav-item>
+                    <b-nav-item href="#share" class="scroll"><span>SHARE</span></b-nav-item>
+                    <b-nav-item href="#sell" class="scroll"><span>SELL</span></b-nav-item>
+                    <b-nav-item href="#coach" class="scroll"><span>COACH</span></b-nav-item>
                 </b-navbar-nav>
             </b-collapse>
             <b-btn-group class="header-button button--white d-none d-xl-block">
-                <b-link class="btn btn--white">Contact Us</b-link>
+                <b-link class="btn btn--white">Request Insights</b-link>
             </b-btn-group>
         </div>
     </b-navbar>

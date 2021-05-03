@@ -6,8 +6,9 @@
 		<!-- hero section -->
 		<HeroNoudone class="hero-sass" />
 
+    <TabTwo BgGradient="bg-gradient" id="create" />
 		<!-- Gradation section start -->
-		<div class="icon-process-area section-space--pb_120" id="about">
+		<div class="icon-process-area section-space--pb_120" id="share">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -18,7 +19,7 @@
         </div>
 
 		<!-- faq banner start -->
-		<FaqBanner />
+		<FaqBanner  id="sell" />
 
 		<!-- banner one component -->
 		<CurveShape class="curve-bottom">
@@ -33,7 +34,7 @@
 		<BannerOne class="banner-one-sass" />
 
 		<!-- sass feature component -->
-		<SassFeature class="gray-gradient" id="service"/>
+		<SassFeature class="gray-gradient" id="coach"/>
 
 		<!-- call to action component -->
 		<CurveShape class="curve-bottom">
@@ -99,6 +100,7 @@
 	import BrandLogoCarousel from "../components/BrandLogoCarousel";
 	import BannerBgOne from "../components/BannerBgOne";
 	import FooterMain from "../components/FooterMain";
+  import TabTwo from "../components/TabTwo";
 
 	export default {
 		name: "app",
@@ -115,7 +117,8 @@
 			TestimonialTwo,
 			BrandLogoCarousel,
 			BannerBgOne,
-			FooterMain
+			FooterMain,
+      TabTwo
 		},
 
 		metaInfo: {
