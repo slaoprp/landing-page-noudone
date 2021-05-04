@@ -150,6 +150,7 @@
         transform: translateY(-3px);
     }
     &--green{
+        border-radius: 15px;
         background-image: none;
         background-color: $theme-color--green;
         &:hover{
@@ -174,6 +175,18 @@
             background-image: none;
             background: $white;
             color: $black;
+        }
+    }
+    &--blue{
+        border-radius: 30px;
+        background-image: none;
+        background-color: #3271ba;
+        color: $white;
+        box-shadow: 0 0 30px 5px rgba(0,0,0,0.07);
+        &:hover{
+            background-image: none;
+            background: #3271ba;
+            color: $white;
         }
     }
     &--gradient{

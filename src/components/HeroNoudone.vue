@@ -6,7 +6,7 @@
                     <div class="swiper-slide" :style="bgImg">
                         <div class="hero-item text-center">
                             <div class="hero-content">
-                                <h2 class="h1 hero-content-title font-weight-light">Create powerful coaching flows</h2>
+                                <h2 class="h1 hero-content-title font-weight-light">Build powerful coaching flows</h2>
                                 <h6 class="hero-content-subtitle">Anyone, anywhere, can be trained now</h6>
                                 <!-- <router-link :to="{ path: 'branding' }" class="btn btn--green">
                                     <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get AeroLand

@@ -11,7 +11,7 @@
 }
 .navbar-brand {
     img {
-        width: 180px;
+        width: 150px;
     }
 }
 .navbar {
@@ -131,11 +131,12 @@
 }
 
 .header-button.button--white > a.btn {
-    color: #5945e6;
+    color: #64af89;
+    border-radius: 30px;
 }
 .header-area.is-sticky .header-button.button--white > a.btn {
-    color: #5945e6;
-    border: 2px solid #5945e6;
+    color: #64af89;
+    border: 5px solid #81b69b;
 }
 
 .header-area {
